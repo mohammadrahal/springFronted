@@ -1,0 +1,25 @@
+.show-buttons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.3rem;
+    background: #006400;
+    color:#ffff;
+    width: 100%;
+    height: 90px;
+}
+
+.btn{
+    
+}
+
+@media (max-width:768px){
+    .show-buttons{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        overflow-x: scroll;
+    } 
+}

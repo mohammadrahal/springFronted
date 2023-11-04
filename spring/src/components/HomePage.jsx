@@ -1,9 +1,16 @@
 import React from "react";
+import Navbar from "./Navbar";
+import HeroSection from "./HeroSection";
+import Services from "./Services";
+import Footer from "./Footer";
 
 const HomePage = () => {
   return (
     <div>
-      <h1>home page</h1>
+      <Navbar/>
+      <HeroSection/>
+      <Services/>
+      <Footer/>
     </div>
   );
 };
